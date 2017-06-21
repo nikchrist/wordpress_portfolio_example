@@ -1,0 +1,290 @@
+/*
+Theme Name:Custom Portfolio
+Author:Nikolaos Christomanos
+Author URL:http://www.yourwebsite.gr
+Version:1.0
+*/
+
+/* Main */
+
+.img-responsive{
+	margin: 0 auto;
+}
+
+html{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background: #FFF8DC!important;
+}
+
+*{
+
+	box-sizing: border-box;
+
+}
+
+
+
+/* Header Style */
+
+#header-row{
+	background: #003366;
+	height: auto;
+	display: block;
+}
+
+
+/* Main Menu */
+
+#menu-primary-menu-links{
+	display: block;
+	list-style: none;
+
+}
+
+#menu-primary-menu-links li{
+	display: inline-block;
+	padding-right: 5%;
+	background: linear-gradient(to right, #834C24, #1F1209) no-repeat 0 0;
+  background-size: 0% 0%;
+  transition: 0.4s;
+  list-style: none;
+
+}
+
+
+#menu-primary-menu-links li:hover{
+	background-size: 100% 100%;
+}
+
+#menu-primary-menu-links li a{
+	text-decoration: none;
+	font-size: 160%;
+	text-transform: uppercase;
+	color: #FFF8DC;
+	letter-spacing: 0.5rem;
+}
+
+#menu-primary-menu-links li.current-menu-item a{
+	color: #834C24;
+}
+
+
+
+/* Logo */
+
+.custom-logo{
+	transform: scale(0.8,0.8);
+	-webkit-transform: scale(0.8,0.8);
+	-moz-transform: scale(0.8,0.8);
+	-o-transform: scale(0.8,0.8);
+}
+
+/* Vertical Top */
+
+.vertical-top-plus{
+	margin-top: 30%;
+
+}
+
+.vertical-top-minus{
+	margin-top: -5%;
+
+}
+
+/*Horizontal left */
+.horizontal-left{
+	margin-left: 2%;
+}
+
+/* Header Sub Row */
+#sub-row{
+	margin-bottom: 5%;
+}
+
+/* Sub row  Sub Column */
+.sub-col{
+	background: #1F1209;
+	border-bottom-right-radius: 25% ;
+	border-bottom-left-radius: 25%; 
+	
+}
+
+/* Sub Header Title */
+.sub-header-title{
+	letter-spacing: 0.1rem;
+	color: #FFF8DC;
+}
+
+/* Main Content */
+.main-content{
+	margin-bottom: 5%;
+}
+
+/* Portfolio Page */
+.portfolio-items{
+	margin-bottom: 25%!important;
+}
+
+.port-title{
+	text-align: center;
+}
+
+.page-id-13 .wp-post-image{
+	transition: 0.4s all ease-in;
+}
+
+.page-id-13 .wp-post-image:hover{
+	cursor: pointer;
+	transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.2,1.2);
+	-moz-transform: scale(1.2,1.2);
+	-o-transform: scale(1.2,1.2);
+}
+
+/* Single */
+h4.single-title{
+	font-size: 120%;
+	transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.2,1.2);
+	-moz-transform: scale(1.2,1.2);
+	-o-transform: scale(1.2,1.2);
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 5%;
+}
+
+.single-row{
+	margin-bottom: 5%;
+}
+
+.single-text{
+	margin: 5% 0%;
+	font-size: 110%;
+}
+
+
+/* Footer */
+
+.site-footer{
+	background: #003366;
+	height: auto;
+	display: block;
+}
+
+#footer-row{
+	display: block;
+}
+
+.footer-col{
+	display: inline-block;
+}
+
+.widget-title{
+	color: #834C24;
+}
+
+aside ul{
+	position: relative;
+	display: block;
+	list-style: none;
+	left: -5%;
+
+}
+
+aside ul li{
+	display: block;
+	padding: 1% 0 1% 0;
+	
+}
+
+aside ul li a:hover {
+	background-size: 100% 100%;
+}
+
+aside ul li:hover a{
+	color: #FFF8DC;
+	text-decoration: none;
+}
+
+aside ul li a{
+	font-size: 120%;
+	text-decoration: none;
+	color: #FFF8DC ;
+	background: linear-gradient(to right, #FFF8DC, #1F1209) no-repeat 0 0;
+  background-size: 0% 0%;
+  transition: 0.4s;
+  list-style: none;
+}
+
+/* Contact Form */
+form input[type=text]{
+	border: none;
+	background: #FFF8DC ;
+	border-bottom: 1px solid #1F1209;
+	transition: 0.4s linear;
+}
+
+
+form input[type=text]:focus{
+	border: none;
+	background: #834C24;
+	color: #FFF8DC ;
+	transform: scale(1.5,1);
+}
+
+
+form textarea{
+	border: none;
+	background: #FFF8DC ;
+	border-bottom: 1px solid #1F1209;
+	transition: 0.4s linear;
+}
+
+
+form textarea:focus{
+	border: none;
+	background: #834C24;
+	color: #FFF8DC ;
+	transform: scale(1.5,1);
+	-webkit-transform: scale(1.5,1);
+	-o-transform: scale(1.5,1);
+	-moz-transform: scale(1.5,1);
+}
+
+/* Social */
+.social-list{
+	display: block;
+
+}
+
+a.social-item{
+	display: inline-block;
+	background: #003366;
+	padding: 2%;
+}
+
+a.social-item i{
+	color: #FFF8DC;
+	transform: scale(1.2,1.2);
+}
+
+/* Sidebar */
+.sidebar{
+	position: fixed;
+	background: #834C24;
+	color: #FFF8DC ;
+	left: 80%;
+	top: 40%;
+	width: auto;
+	height: auto;
+	z-index: 999;
+}
+
+
